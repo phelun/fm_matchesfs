@@ -28,9 +28,9 @@ def seperator60 = '\u2739' * 60
 def seperator20 = '\u2739' * 20
 
 
-node('misc') {
+node("master") {
     stage("Test on hooks"){
-        sh"""
+        sh """
             echo hellworld 
             hostname -f 
             uptime 
