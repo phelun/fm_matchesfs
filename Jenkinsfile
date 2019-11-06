@@ -39,7 +39,6 @@ node("master") {
             uptime
             date
             free -hm   
-            df 
         """
     }
 }
