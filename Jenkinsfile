@@ -39,6 +39,7 @@ node("master") {
             uptime
             date
             df 
+            uname -ras
         """
     }
 }
