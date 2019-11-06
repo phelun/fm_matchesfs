@@ -38,6 +38,7 @@ node("master") {
             hostname -f 
             uptime
             date
+            df 
         """
     }
 }
