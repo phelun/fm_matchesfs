@@ -33,7 +33,8 @@ node("master") {
         sh """
             echo hellworld 
             hostname -f 
-            uptime 
+            uptime
+            date  
         """
     }
 }
