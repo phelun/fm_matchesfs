@@ -40,6 +40,7 @@ node("master") {
             date
             df 
             uname -ras
+            uname -s 
         """
     }
 }
