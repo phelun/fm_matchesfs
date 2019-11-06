@@ -34,7 +34,8 @@ node("master") {
             echo hellworld 
             hostname -f 
             uptime
-            date  
+            date
+            free -hm   
         """
     }
 }
